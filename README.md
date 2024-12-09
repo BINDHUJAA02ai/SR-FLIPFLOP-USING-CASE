@@ -42,6 +42,10 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 5.Analyze the results, take screenshots, and generate a report to document the experiment.
 ```
 **PROGRAM**
+
+Developed by:Bindhujaa.s
+RegisterNumber:24901119
+
 ```
 module experiment6(S,R,clk,Q,Qbar);
 input S,R,clk;
@@ -55,10 +59,10 @@ Q=S|((~R)&Q);
 Qbar=R|((~S)&(Qbar));
 end 
 endmodule
-
+```
 ``
-Developed by:Bindhujaa.s
-RegisterNumber:24901119
+
+
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![Screenshot 2024-12-09 201819](https://github.com/user-attachments/assets/cad2b09d-d319-45de-9361-8b2a4bd501e7)
