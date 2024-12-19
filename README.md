@@ -1,4 +1,9 @@
-# SR-FLIPFLOP-USING-CASE
+Name:Bindhujaa.S
+
+Register No: 24901119
+
+
+**Experiment6:SR-FLIPFLOP-USING-CASE**
 
 **AIM:**
 
@@ -34,33 +39,22 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-```
+
 1.design the SR Flip Flop circuit using the IC 7474, switches, LEDs, and wires.
-2.Configure the input switches (S and R) to apply different input combinations.
+
+2.Configure the input switches (S and R) to apply different input combinations
+.
 3.Run the simulation to observe the output (Q and Q') on the LEDs.
+
 4.Verify the output with the SR Flip Flop truth table to ensure correct functionality.
+
 5.Analyze the results, take screenshots, and generate a report to document the experiment.
-```
+
 **PROGRAM**
 
-Developed by:Bindhujaa.s
-RegisterNumber:24901119
 
-```
-module experiment6(S,R,clk,Q,Qbar);
-input S,R,clk;
-output reg Q;
-output reg Qbar;
-initial Q=0;
-initial Qbar=1;
-always @(posedge clk)
-begin 
-Q=S|((~R)&Q);
-Qbar=R|((~S)&(Qbar));
-end 
-endmodule
-```
-``
+![Screenshot 2024-12-19 213857](https://github.com/user-attachments/assets/0c292bd8-bbb7-4808-a0f2-8103742d3e2f)
+
 
 
 **RTL LOGIC FOR FLIPFLOPS**
@@ -70,7 +64,7 @@ endmodule
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![Screenshot 2024-12-09 202203](https://github.com/user-attachments/assets/1bc11a5e-38ff-4627-a045-146f33b7b969)
+![Screenshot 2024-12-19 213953](https://github.com/user-attachments/assets/af58f6dc-fa42-4f1b-8942-f6c4dee00052)
 
 
 **RESULTS**
